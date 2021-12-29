@@ -1,0 +1,22 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "## Board Geometry",
+  "main": "chess.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szafirov/chess.git"
+  },
+  "keywords": [
+    "chess"
+  ],
+  "author": "Stefan Zafirov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szafirov/chess/issues"
+  },
+  "homepage": "https://github.com/szafirov/chess#readme"
+}

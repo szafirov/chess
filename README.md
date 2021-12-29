@@ -3,12 +3,12 @@
 ## Board Geometry
 
 ### Rectangular
-    Micro chess (4x4)
-    Mini chess (5x5)
-    Western Chess (8x8)
-    Capablanca Chess (8x10)
-    Grand Chess (10x10)
-    Terachess (16x16)
+    - Micro chess (4x4)
+    - Mini chess (5x5)
+    - Western Chess (8x8)
+    - Capablanca Chess (8x10)
+    - Grand Chess (10x10)
+    - Terachess (16x16)
 
 ###	Historical
     - Xiang Qi
@@ -76,7 +76,7 @@
 		- Shogi
 		- Crazyhouse
 		- Chessgi
-	- ouble or more moves:
+	- Double or more moves:
 		- Marseillais Chess
 		- Extra Move Chess
 		- Twinmove Chess
@@ -85,8 +85,20 @@
 
 ## Capture
 	- Regular
-	- Decay
-	- Atomic
+	- Decay (pieces soon after capture)
+	- Atomic (explodes around)
+
+## Visibility
+	- Fully Visible (normal)
+	- Fog of war (discover as you play)
+	- Blindfolded (rely on player's memory)
+
+## Initial Setup
+	- Preset (Most variations)
+	- Random (Fisher variation)
+	- Placement (Players place pieces in turns)
+	- Inverse placement (Opponent places your pieces)
+	- Blind Placement (Cannot see Opponent's placement)
 
 ## Win Goal for 2 player games
 	- Mate (or capture) one or several or all present royal pieces
@@ -105,21 +117,12 @@
 ## Draw conditions
     - 50 move rule (no pawn moves or captures)
     - Three repetition rule
-    - Condition to win can no longer be met (no possible mate)
+    - Condition to win can no longer be met (mate not possible)
 
 ## Time controls
-
-## Visibility
-	- Fully Visible
-	- Fog of war
-	- Blindfolded
-
-## Initial Setup
-	- Preset (Most variations)
-	- Random (Fisher variation)
-	- Placement (Players place pieces in turns)
-	- Inverse placement (Opponent places your pieces)
-	- Blind Placement
+    - Sudden Death (5 min, 30 min, 1h)
+    - Increment / move (3 min + 2 sec / move)
+    - Time per move (1 min / move)
 
 ### Implementation Ideas
 	- Serverless, Peer-to-peer
